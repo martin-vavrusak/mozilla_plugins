@@ -38,7 +38,7 @@ function activateButton(){
         };
 }
 
-//Disable button and set icon
+//Disable button and set icon.
 function deactivateButton(){
   button.icon = {
     "16": "./icon-16_inactive.png",
