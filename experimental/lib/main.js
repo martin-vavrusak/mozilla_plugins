@@ -13,7 +13,7 @@ var button = buttons.ActionButton({
   onClick: handleClick
 });
 
-//Enable button when facebook page loads
+//Enable button when facebook page loads.
 pageMod.PageMod({
   include: "*.facebook.com",
   onAttach: activateButton
